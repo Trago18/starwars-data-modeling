@@ -41,7 +41,7 @@ class Character(Base):
 
 
 class Planet(Base):
-    __tablename__ = 'Planet'
+    __tablename__ = 'planet'
     # Here we define columns for the table address.
     # Notice that each column is also a normal Python instance attribute.
     id = Column(Integer, primary_key=True)
